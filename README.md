@@ -14,3 +14,12 @@
 
 ## Design Pattern
 - [ ] builder
+
+## Infrastructure
+- [ ] Docker
+
+## Cache
+- [ ] Redis
+
+## Database
+- [ ] ACID
