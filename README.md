@@ -25,3 +25,6 @@
 
 ## Database
 - [ ] ACID
+
+## Version Control
+- [ ] Git
