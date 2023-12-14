@@ -13,6 +13,7 @@
 - [ ] batch
 
 ## Design Pattern
+- [ ] GoF ([ref.](https://velog.io/@namezin/GoF-design-pattern))
 - [ ] builder
 
 ## Infrastructure
