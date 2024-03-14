@@ -7,10 +7,13 @@
 - [ ] BFS
 
 ## Java
+- [ ] serialize
 
 ## Spring
 - [ ] security
 - [ ] batch
+- [ ] Spring Data JPA
+- [ ] ElasticSearch
 
 ## Design Pattern
 - [ ] GoF ([ref.](https://velog.io/@namezin/GoF-design-pattern))
