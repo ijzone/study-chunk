@@ -54,7 +54,7 @@ public class DiagonalDifferences {
         });
 
         int result = Result.diagonalDifference(arr);
-
+        System.out.println("result = " + result);
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
 
