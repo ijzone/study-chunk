@@ -1,4 +1,4 @@
-package com.ij.study;
+package com.ij.study.warmUp.diagonalDifference;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -32,6 +32,10 @@ class Result {
 
 }
 
+/**
+ * Environment
+ * output=path/to/output
+ */
 public class DiagonalDifferences {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
