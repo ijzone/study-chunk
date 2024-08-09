@@ -1,4 +1,4 @@
-package com.ij.study.warmUp.BirthdayCakeCandles;
+package com.ij.study.warmUp.birthdayCakeCandles;
 
 import java.io.*;
 import java.util.List;
