@@ -1,9 +1,9 @@
 package thread;
 
-public class ThreadClazz implements Runnable {
+public class ThreadClazz2 extends Thread {
     int seq;
 
-    public ThreadClazz(int seq) {
+    public ThreadClazz2(int seq) {
         this.seq = seq;
     }
 
@@ -12,4 +12,3 @@ public class ThreadClazz implements Runnable {
         System.out.printf("Thread (%s) running\n", seq);
     }
 }
-
