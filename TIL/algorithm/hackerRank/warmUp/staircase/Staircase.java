@@ -1,4 +1,4 @@
-package com.ij.study.warmUp.staircase;
+package hackerRank.warmUp.staircase;
 
 import java.io.BufferedReader;
 import java.io.IOException;

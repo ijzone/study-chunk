@@ -1,4 +1,4 @@
-package com.ij.study.implementation.appleAndOrange;
+package hackerRank.implementation.appleAndOrange;
 
 import java.io.BufferedReader;
 import java.io.IOException;

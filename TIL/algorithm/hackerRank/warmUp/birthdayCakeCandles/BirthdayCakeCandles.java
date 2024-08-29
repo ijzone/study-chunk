@@ -1,4 +1,4 @@
-package com.ij.study.warmUp.birthdayCakeCandles;
+package hackerRank.warmUp.birthdayCakeCandles;
 
 import java.io.*;
 import java.util.List;
@@ -36,7 +36,7 @@ public class BirthdayCakeCandles {
                 .map(Integer::parseInt).toList();
 
         int result = birthdayCakeCandles(candles);
-
+        System.out.println("result = " + result);
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
 

@@ -1,4 +1,4 @@
-package com.ij.study.warmUp.plusMinus;
+package hackerRank.warmUp.plusMinus;
 
 import java.io.BufferedReader;
 import java.io.IOException;

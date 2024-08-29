@@ -1,19 +1,22 @@
 # Study Chunk
 ## Data Structure
 - [ ] collection framework
+- [ ] Tree
 
 ## Algorithm
+- [ ] Time Complexity [시간복잡도](https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/)
 - [ ] DFS
 - [ ] BFS
+- [ ] Binary Search
 
 ## Java
 - [ ] serialize
 
 ## Spring
-- [ ] security
-- [ ] batch
+- [ ] Spring Security
+- [ ] Spring Batch
 - [ ] Spring Data JPA
-- [ ] ElasticSearch
+- [ ] ElasticSearch (Lucene)
 
 ## Design Pattern
 - [ ] GoF ([ref.](https://velog.io/@namezin/GoF-design-pattern))

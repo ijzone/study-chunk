@@ -1,4 +1,4 @@
-package com.ij.study.warmUp.miniMaxSum;
+package hackerRank.warmUp.miniMaxSum;
 
 import java.io.BufferedReader;
 import java.io.IOException;
