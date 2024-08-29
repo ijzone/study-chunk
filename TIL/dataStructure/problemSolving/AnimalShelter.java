@@ -1,3 +1,5 @@
+package problemSolving;
+
 import java.util.LinkedList;
 
 enum AnimalType {

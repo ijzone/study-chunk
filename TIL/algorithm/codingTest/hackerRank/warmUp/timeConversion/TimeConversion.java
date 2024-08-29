@@ -1,4 +1,4 @@
-package hackerRank.warmUp.timeConversion;
+package codingTest.hackerRank.warmUp.timeConversion;
 
 import java.io.*;
 

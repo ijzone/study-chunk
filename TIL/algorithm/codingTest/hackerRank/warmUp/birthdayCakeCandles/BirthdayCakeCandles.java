@@ -1,4 +1,4 @@
-package hackerRank.warmUp.birthdayCakeCandles;
+package codingTest.hackerRank.warmUp.birthdayCakeCandles;
 
 import java.io.*;
 import java.util.List;

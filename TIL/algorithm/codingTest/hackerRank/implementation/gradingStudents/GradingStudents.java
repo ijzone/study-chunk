@@ -1,4 +1,4 @@
-package hackerRank.implementation.gradingStudents;
+package codingTest.hackerRank.implementation.gradingStudents;
 
 import java.io.*;
 import java.util.ArrayList;

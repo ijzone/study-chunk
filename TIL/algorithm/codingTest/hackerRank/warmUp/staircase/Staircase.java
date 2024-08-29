@@ -1,4 +1,4 @@
-package hackerRank.warmUp.staircase;
+package codingTest.hackerRank.warmUp.staircase;
 
 import java.io.BufferedReader;
 import java.io.IOException;

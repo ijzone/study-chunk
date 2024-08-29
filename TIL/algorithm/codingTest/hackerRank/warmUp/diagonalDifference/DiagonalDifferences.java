@@ -1,4 +1,4 @@
-package hackerRank.warmUp.diagonalDifference;
+package codingTest.hackerRank.warmUp.diagonalDifference;
 
 import java.io.*;
 import java.util.ArrayList;
