@@ -18,7 +18,7 @@ public class Main {
 
         // Thread 상속 방식
         for (int idx = 1; idx < 11; idx++) {
-            ThreadClazz2 thread = new ThreadClazz2(idx); // 쓰레드 인터페이스를 상속한 객체 생성
+            ThreadClazz2 thread = new ThreadClazz2(idx); // 쓰레드 클래스를 상속한 객체 생성
             thread.start();
             thread.join(); // 쓰레드 실행이 완료 될 때까지 대기
         }

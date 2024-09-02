@@ -27,7 +27,7 @@
 
 ## Cache
 - Etag
-  - [Etag를 이용하여 더 나은 Restful API 만들](https://yozm.wishket.com/magazine/detail/1772/)
+  - [Etag를 이용하여 더 나은 Restful API 만들기](https://yozm.wishket.com/magazine/detail/1772/)
 - [ ] Redis
 
 ## Database
@@ -35,3 +35,6 @@
 
 ## Version Control
 - [ ] Git
+
+## Rust
+- [ ] Begin to learn Rust programming language one by one
