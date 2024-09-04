@@ -1,13 +1,15 @@
 # Study Chunk
 ## Data Structure
 - [ ] collection framework
+- [x] Binary Search Tree
+- [ ] LinkedList
 - [ ] Tree
 
 ## Algorithm
 - [ ] Time Complexity [시간복잡도](https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/)
 - [ ] DFS
 - [ ] BFS
-- [ ] Binary Search
+- [x] Binary Search
 
 ## Java
 - [ ] serialize
@@ -32,9 +34,14 @@
 
 ## Database
 - [ ] ACID
+- [ ] Transaction Level
+- [ ] Index
 
 ## Version Control
 - [ ] Git
 
+## Cloud
+- EC2
+---
 ## Rust
 - [ ] Begin to learn Rust programming language one by one

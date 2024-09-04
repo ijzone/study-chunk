@@ -1,0 +1,11 @@
+# Sort Algorithm
+- O(log n)
+  - [x] binary search
+- O(n log n)
+  - [ ] quick sort
+  - [ ] merge sort
+  - [ ] heap sort
+- O(n^2)
+  - [x] bubble sort
+  - [x] insertion sort
+  - [x] selection sort
