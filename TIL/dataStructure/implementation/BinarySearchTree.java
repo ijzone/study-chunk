@@ -3,6 +3,7 @@ package implementation;
 /**
  * 이분 탐색
  * <a href="https://www.javatpoint.com/binary-search-tree">참고</a>
+ * <a href="https://yozm.wishket.com/magazine/detail/2723/?utm_source=stibee&utm_medium=email&utm_campaign=newsletter_yozm&utm_content=contents">Binary Search Tree</a>
  */
 public class BinarySearchTree {
 
@@ -71,6 +72,7 @@ public class BinarySearchTree {
             inorderRec(root.right);
         }
     }
+
 }
 
 class TreeNode {
