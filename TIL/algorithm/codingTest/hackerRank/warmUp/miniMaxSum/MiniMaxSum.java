@@ -10,6 +10,18 @@ import static java.util.stream.Collectors.toList;
 
 public class MiniMaxSum {
 
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+        List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
+                .map(Integer::parseInt)
+                .collect(toList());
+
+        miniMaxSum(arr);
+
+        bufferedReader.close();
+    }
+
     static void miniMaxSum(List<Integer> arr) {
         for (int i = 0; i < arr.size(); i++) {
             for (int j = 0; j < arr.size() - i - 1; j++) {
@@ -28,17 +40,5 @@ public class MiniMaxSum {
             max += arr.get(arr.size() - i - 1);
         }
         System.out.println(min + " " + max);
-    }
-
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-
-        List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-                .map(Integer::parseInt)
-                .collect(toList());
-
-        miniMaxSum(arr);
-
-        bufferedReader.close();
     }
 }

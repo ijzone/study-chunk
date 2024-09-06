@@ -6,6 +6,16 @@ import java.io.InputStreamReader;
 
 public class Staircase {
 
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+        int n = Integer.parseInt(bufferedReader.readLine().trim());
+
+        staircase(n);
+
+        bufferedReader.close();
+    }
+
     static void staircase(int n) {
         int spaceCount = n - 1;
         int stairCount = n - spaceCount;
@@ -20,15 +30,5 @@ public class Staircase {
             spaceCount--;
             stairCount++;
         }
-    }
-
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-
-        int n = Integer.parseInt(bufferedReader.readLine().trim());
-
-        staircase(n);
-
-        bufferedReader.close();
     }
 }

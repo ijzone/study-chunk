@@ -20,24 +20,6 @@ public class AppleAndOrange {
      *  5. INTEGER_ARRAY apples
      *  6. INTEGER_ARRAY oranges
      */
-    private static void countApplesAndOranges(int s, int t, int a, int b, List<Integer> apples, List<Integer> oranges) {
-
-        List<Integer> appleCollection = apples.stream().filter(apple -> {
-            if (a + apple >= s & a + apple <= t) {
-                return true;
-            }
-            return false;
-        }).collect(Collectors.toList());
-        System.out.println("appleCollection = " + appleCollection.size());
-        List<Integer> orangeCollection = oranges.stream().filter(orange -> {
-            if (b + orange >= s & b + orange <= t) {
-                return true;
-            }
-            return false;
-        }).collect(Collectors.toList());
-        System.out.println("orangeCollection = " + orangeCollection.size());
-    }
-
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -64,5 +46,23 @@ public class AppleAndOrange {
         countApplesAndOranges(s, t, a, b, apples, oranges);
 
         bufferedReader.close();
+    }
+
+    private static void countApplesAndOranges(int s, int t, int a, int b, List<Integer> apples, List<Integer> oranges) {
+
+        List<Integer> appleCollection = apples.stream().filter(apple -> {
+            if (a + apple >= s & a + apple <= t) {
+                return true;
+            }
+            return false;
+        }).collect(Collectors.toList());
+        System.out.println("appleCollection = " + appleCollection.size());
+        List<Integer> orangeCollection = oranges.stream().filter(orange -> {
+            if (b + orange >= s & b + orange <= t) {
+                return true;
+            }
+            return false;
+        }).collect(Collectors.toList());
+        System.out.println("orangeCollection = " + orangeCollection.size());
     }
 }

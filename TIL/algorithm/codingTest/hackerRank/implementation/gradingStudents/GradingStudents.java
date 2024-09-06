@@ -10,26 +10,6 @@ import static java.util.stream.Collectors.toList;
 
 public class GradingStudents {
 
-    public static List<Integer> gradingStudents(List<Integer> grades) {
-        List<Integer> result = new ArrayList<>();
-        for (Integer grade : grades) {
-            int rounded = (int)Math.ceil((double)grade / 5);
-            int multipleOfFive = rounded * 5;
-            int difference = multipleOfFive - grade;
-            if (difference < 3) {
-                if (grade < 38) {
-                    result.add(grade);
-                    continue;
-                }
-                result.add(multipleOfFive);
-            } else {
-                result.add(grade);
-            }
-        }
-        result.forEach(g -> System.out.println(g));
-        return result;
-    }
-
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("output")));
@@ -58,5 +38,25 @@ public class GradingStudents {
 
         bufferedReader.close();
         bufferedWriter.close();
+    }
+
+    public static List<Integer> gradingStudents(List<Integer> grades) {
+        List<Integer> result = new ArrayList<>();
+        for (Integer grade : grades) {
+            int rounded = (int)Math.ceil((double)grade / 5);
+            int multipleOfFive = rounded * 5;
+            int difference = multipleOfFive - grade;
+            if (difference < 3) {
+                if (grade < 38) {
+                    result.add(grade);
+                    continue;
+                }
+                result.add(multipleOfFive);
+            } else {
+                result.add(grade);
+            }
+        }
+        result.forEach(g -> System.out.println(g));
+        return result;
     }
 }
