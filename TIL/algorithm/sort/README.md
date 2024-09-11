@@ -2,7 +2,7 @@
 - O(log n)
   - [x] binary search
 - O(n log n)
-  - [ ] quick sort
+  - [x] quick sort
   - [ ] merge sort
   - [ ] heap sort
 - O(n^2)

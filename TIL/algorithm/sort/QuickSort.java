@@ -21,7 +21,6 @@ public class QuickSort {
         System.out.println(Arrays.toString(arr));
     }
 
-//        int[] arr = { 7, 6, 10, 5, 9, 2, 1, 15, 7 };
     static int quickSort(int[] arr, int lo, int hi) {
         int median = partition(arr, lo, hi);
         // check if the array has only one element, if not, go on sort for left side

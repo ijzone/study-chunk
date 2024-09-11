@@ -38,7 +38,7 @@ public class Recursion {
 		}
 		
 		x = arrayMaxValue(arr, range-1);
-		
-		return x > arr[range-1] == true ? x : arr[range-1];
+
+		return x > arr[range-1] ? x : arr[range-1];
 	}
 }

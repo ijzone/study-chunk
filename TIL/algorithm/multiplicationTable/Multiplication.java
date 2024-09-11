@@ -1,3 +1,5 @@
+package multiplicationTable;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
